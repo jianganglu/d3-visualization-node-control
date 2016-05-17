@@ -1,0 +1,105 @@
+﻿body {
+  background-color: #B6DFFB;
+}
+
+button {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 2 */
+  margin: 0; /* 3 */
+  vertical-align: baseline; /* 4 */
+  text-transform: none;
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+  list-style-type: none;
+  border: none;
+}
+
+/**
+* 移除 Firefox 3+ 的内边距
+*/
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.col-md-6 {
+  width: 50%;
+  float: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*.btn {
+  padding: 7% 12%;
+  color: #fff;
+  font-size: 1.4rem;
+  border: 1px solid green;
+  border-radius: 4px;
+  background: green;
+}*/
+
+.btn {
+  background-color: #3bb3e0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  padding: 7% 12%;
+  border-left: solid 1px #2ab7ec;
+  background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+  background-image: -o-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+  background-image: -moz-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+  background-image: -ms-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+  background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(44,160,202)), color-stop(1, rgb(62,184,229)) );
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+  -moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+  -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+  box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+}
+
+.btn:active {
+  top: 3px;
+  background-image: linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+  background-image: -o-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+  background-image: -moz-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+  background-image: -ms-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+  background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(62,184,229)), color-stop(1, rgb(44,160,202)) );
+  -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+  -moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+  -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+  box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+}
+
+.control-box {
+  
+}
+
+.control-box .hd {
+}
+
+.control-box .hd .logo {
+  display: inline-block;
+  width: 198px;
+  height: 34px;
+  margin: 0 auto;
+  margin-top: 25%;
+  background: url("jm-logo.png") no-repeat 0 0;
+}
+
+.control-box .hd p {
+  font-size: 1.6rem;
+  color: #0081CC;
+  font-weight: 700;
+  text-shadow: 1px 1px 4px #FFF;
+}
+
+.control-box .bd {
+  margin-top: 40%;
+}

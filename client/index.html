@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no"/>
+  <meta name="format-detection" content="email=no"/>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" name="viewport">
+  <title>聚贸大屏控制器</title>
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <!--[if lt IE 8]><script src="./json3.min.js"></script><![endif]-->
+  <script src="http://172.16.17.37:3000/socket.io/socket.io.js"></script>
+</head>
+<body>
+<!-- page-wrapper start -->
+<!-- ================ -->
+<div class="page-wrapper">
+  <!-- control-box start -->
+  <!-- ================ -->
+  <div class="control-box">
+    <div class="hd">
+      <div class="text-center">
+        <h1 class="logo"></h1>
+        <p>全球首家全品类大宗商品</p>
+      </div>
+    </div>
+    <div class="bd">
+      <div class="col-md-6 text-center">
+        <button class="btn" id="leftScreen" type="button">切换左屏</button>
+      </div>
+      <div class="col-md-6 text-center">
+        <button class="btn" id="rightScreen" type="button">切换右屏</button>
+      </div>
+    </div>
+  </div>
+  <!-- control-box end -->
+</div>
+<!-- page-wrapper end -->
+
+<!-- <a href="##" class="btn">切换左屏</a> -->
+
+<script type="text/javascript" src="./client.js"></script>
+</body>
+</html>
